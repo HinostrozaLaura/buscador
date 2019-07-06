@@ -1,2 +1,2 @@
-# buscador
-aplicación echa en react permite realizar filtros 
+# buscador-
+aplicacion hecha en react que per
