@@ -6,22 +6,12 @@ render(){
     const{contactos}=this.props;
     return(
     <div>
-        <div className="subtitulo">...</div>
-        <div className="descrpcion">
+        <div>contactos</div>
+        <div>
             {contactos.map((item)=>{
              return(
-                 <div class key={item.id}>
-                      <hr/>
-                      <div className="Ntitulo">
+                 <div key={item.id}>
                      {item.nombre}
-                     </div>
-                     <div className="autor">
-                        {item.Autor} :
-                     </div>
-                     
-                     <br/>
-                     {item.Descripcion}
-                    
                  </div>
              )
 

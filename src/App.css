@@ -1,61 +1,23 @@
 .App {
-    position: relative;
-    top: 30px;
-    bottom: 0px;
-    right: 0px;
-    left: 374px;
-    background-color: rgba(238, 236, 235, 0.699);
-    width: 800px;
+  text-align: center;
 }
 
-.Ntitulo {
-    font-size: 30px;
-    color: rgb(44, 97, 64);
-    font-family: 'Times New Roman', Times, serif
+.contenedor{
+  background-color: deeppink;
 }
 
-.autor {
-    text-align: left;
-    font-size: 25px;
-    color: rgb(44, 97, 64);
+.listadolocalidad{
+  background-color: brown;
 }
 
-.fondo {
-    text-align: center;
-    background-image: url(img/fondo.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 2250px;
+
+.climadetalle{
+  background-color: rgb(85, 85, 216);
 }
 
-.titulo {
-    font-size: 30px;
-    color: rgb(131, 95, 40);
-    font-family: 'Times New Roman', Times, serif
-}
-
-.subtitulo1 {
-    font-size: 20px;
-    color: rgb(44, 97, 64);
-    font-family: 'Times New Roman', Times, serif
-}
-
-.subtitulo {
-    font-size: 45px;
-    color: rgb(165, 201, 199);
-    font-family: 'Times New Roman', Times, serif
-}
-
-.descrpcion {
-    font-size: 20px;
-    color: rgb(59, 139, 133);
-    font-family: 'Times New Roman', Times, serif
-}
-
-.climaLocalidad {
-    background-color: aliceblue;
-    font-size: 14px;
-    color: #087DFF;
-    font-family: 'Times New Roman', Times, serif
+.climaLocalidad{
+  background-color: aliceblue;
+  font-size:14px;
+	color:#087DFF;
+	font-family: 'Times New Roman', Times, serif
 }
